@@ -10,7 +10,7 @@
 Use:
 
 ```js
-db.comments.deleteOne({ name: "Harry" })
+db.comments.deleteOne({ name: "Pawan" })
 ```
 
 **Explanation:**
@@ -18,7 +18,7 @@ This command deletes **only the first document** that matches the given conditio
 If multiple documents match, only the first one will be deleted.
 
 **Example:**
-If there are 3 documents where `name: "Harry"`, only the **first one** will be removed.
+If there are 3 documents where `name: "Pawan"`, only the **first one** will be removed.
 
 ---
 
@@ -148,7 +148,7 @@ This means the delete command worked, but no matching documents were found.
 
 ```js
 // Delete one document
-db.comments.deleteOne({ name: "Harry" })
+db.comments.deleteOne({ name: "Pawan" })
 
 // Delete multiple documents
 db.comments.deleteMany({ lang: "Java" })
