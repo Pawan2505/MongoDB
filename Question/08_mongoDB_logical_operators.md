@@ -1,7 +1,7 @@
 
 ---
 
-## 💬 **MongoDB – Logical Operators**
+## **MongoDB – Logical Operators**
 
 ---
 
